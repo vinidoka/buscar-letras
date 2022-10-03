@@ -1,0 +1,48 @@
+.bloco-text{
+  display: flex;
+}
+
+.fundo2{
+  background-color:#086676e8;
+font-style:italic;
+font-size: 115%;
+
+
+}
+
+.div1{
+  display: grid;
+  place-items: center;
+  border-radius: 50px;
+}
+
+.title{
+   font-family: fantasy;
+   color: #f8f8f8;
+
+}
+
+.textM{
+    font-family: fantasy;
+    color:#f8f8f8;
+
+}
+
+.textA{
+  font-family: fantasy;
+  color:#f8f8f8;
+
+}
+
+.foto1{
+  width: 129px;
+  height: 127px;
+  border-radius: 43%;
+
+}
+
+.Displayfoto1{
+    display: grid;
+    place-items:center;
+
+}

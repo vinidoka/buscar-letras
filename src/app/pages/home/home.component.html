@@ -1,0 +1,43 @@
+<div class="div1">
+  <h1 class="title">BUSCAR-LETRAS</h1>
+
+
+  <div>
+    <label class="textA">Artista</label>
+    <input style="background-color: #00ffff85;border-radius: 50px;" [value]="artist" name="artist" [(ngModel)]="artist">
+  </div>
+
+<div>
+  <label class="textM">Música</label>
+  <input style="background-color: #00ffff85;border-radius: 50px;" [value]="music" name="music" [(ngModel)]="music">
+</div>
+
+
+<div>
+  <button style="border-radius: 50px; background-color:#0f9393; color: aliceblue;" (click)="findLyrics()">BUSCAR</button>
+  <button style="border-radius: 50px; background-color:#0f9393; color: aliceblue;" (click)="translate()">TRADUZIR</button>
+</div>
+</div>
+
+
+<body class="fundo2">
+  <h1 style="position: relative;
+  left: 99px;
+  top: 59px;
+  font-family: fantasy;">{{titleMusic}}</h1>
+  <div *ngIf="artistMusic" class="Displayfoto1">
+    <img class="foto1" [src]="img">
+
+    </div>
+  <h3 style="position: relative;
+  left: 231px;
+  top: -82px;
+  font-family: fantasy;
+  color: #f8f8f8;">{{artistMusic}}</h3>
+
+  <div class="bloco-text">
+    <pre>{{lyricMusic}}</pre>
+    <pre>{{translateMusic2}}</pre>
+  </div>
+
+</body>
